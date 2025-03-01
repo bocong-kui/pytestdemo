@@ -1,0 +1,74 @@
+INFO - 2025-01-19 10:53:20,998 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:None
+ERROR - 2025-01-19 10:53:20,998 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+INFO - 2025-01-19 10:54:27,374 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:None
+ERROR - 2025-01-19 10:54:27,375 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+INFO - 2025-01-19 10:55:31,648 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:None
+ERROR - 2025-01-19 10:55:31,648 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+INFO - 2025-01-19 10:56:15,912 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:None
+ERROR - 2025-01-19 10:56:15,912 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+INFO - 2025-01-19 10:57:07,143 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:None
+ERROR - 2025-01-19 10:57:07,143 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+INFO - 2025-01-19 10:58:33,070 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:'172.0.0.1'
+ERROR - 2025-01-19 10:58:33,076 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:Error 11001 connecting to '172.0.0.1':6379. getaddrinfo failed.
+INFO - 2025-01-19 10:58:47,382 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+ERROR - 2025-01-19 10:59:08,430 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:Timeout connecting to server
+INFO - 2025-01-19 10:59:45,706 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+ERROR - 2025-01-19 11:00:06,759 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:Timeout connecting to server
+INFO - 2025-01-19 11:05:53,777 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+ERROR - 2025-01-19 11:06:14,826 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:product:1失败,失败原因:Timeout connecting to server
+INFO - 2025-01-19 13:33:03,311 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+ERROR - 2025-01-19 13:33:24,372 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:user:1失败,失败原因:Timeout connecting to server
+INFO - 2025-01-19 13:35:00,821 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+ERROR - 2025-01-19 13:35:21,858 -connectDb.py:38 - [connectDb:get] -从Redis中获取heima:user:1失败,失败原因:Timeout connecting to server
+INFO - 2025-01-19 13:37:16,743 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:37:36,837 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:37:48,189 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:38:04,256 -connectDb.py:21 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+ERROR - 2025-01-19 13:38:25,304 -connectDb.py:39 - [connectDb:get] -从Redis中获取userInfo失败,失败原因:Timeout connecting to server
+INFO - 2025-01-19 13:43:00,625 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:43:14,616 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:44:32,723 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:45:17,829 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:47:32,474 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:51:40,985 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:localhost
+INFO - 2025-01-19 13:52:19,589 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:53:00,666 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:53:07,087 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:55:43,430 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:59:38,403 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 13:59:58,514 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:01:41,834 -connectDb.py:51 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:02:06,110 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:03:40,687 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:14:29,674 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:15:16,123 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:16:52,473 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:17:35,560 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:19:25,615 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:21:38,837 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:27:35,157 -connectDb.py:22 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+ERROR - 2025-01-19 14:27:56,209 -connectDb.py:39 - [connectDb:get] -从Redis中获取userInfo失败,失败原因:Timeout connecting to server
+INFO - 2025-01-19 14:39:10,571 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:39:58,376 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:41:38,395 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器:ip:172.0.0.1
+INFO - 2025-01-19 14:42:27,376 -connectDb.py:52 - [connectDb:__init__] -连接到Redis服务器：ip：172.0.0.1
+INFO - 2025-01-19 14:52:26,100 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+ERROR - 2025-01-19 14:52:26,105 -connectDb.py:40 - [connectDb:get] -从Redis中获取userInfo失败,失败原因:WRONGTYPE Operation against a key holding the wrong kind of value
+INFO - 2025-01-19 14:52:36,219 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+ERROR - 2025-01-19 14:52:36,223 -connectDb.py:40 - [connectDb:get] -从Redis中获取userInfo失败,失败原因:WRONGTYPE Operation against a key holding the wrong kind of value
+INFO - 2025-01-19 14:52:57,784 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+INFO - 2025-01-19 14:53:34,066 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+INFO - 2025-01-19 14:53:52,869 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+INFO - 2025-01-19 14:54:35,017 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+INFO - 2025-01-19 14:55:01,695 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+INFO - 2025-01-19 14:55:12,768 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+INFO - 2025-01-19 14:55:25,774 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+INFO - 2025-01-19 14:55:30,824 -connectDb.py:23 - [connectDb:__init__] -连接到Redis服务器:ip:127.0.0.1
+INFO - 2025-01-19 21:11:07,957 -connectDb.py:63 - [connectDb:hget] -result:dio
+INFO - 2025-01-19 21:11:42,306 -connectDb.py:63 - [connectDb:hget] -result:dio
+INFO - 2025-01-19 21:12:21,593 -connectDb.py:63 - [connectDb:hget] -result:面包人
+INFO - 2025-01-19 21:12:29,871 -connectDb.py:63 - [connectDb:hget] -result:120
+INFO - 2025-01-19 21:15:11,485 -connectDb.py:63 - [connectDb:hget] -result:120
+INFO - 2025-01-19 21:15:11,486 -connectDb.py:72 - [connectDb:hgetall] -result:{'name': 'dio', 'address': '埃及', 'hobby': '面包人', 'age': '120'}
+INFO - 2025-01-19 21:16:42,221 -connectDb.py:63 - [connectDb:hget] -result:120
+INFO - 2025-01-19 21:16:42,221 -connectDb.py:72 - [connectDb:hgetall] -result:{'name': 'dio', 'address': '埃及', 'hobby': '面包人', 'age': '120'}

@@ -1,0 +1,888 @@
+INFO - 2024-12-14 20:55:47,639 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 20:55:47,639 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 20:55:47,639 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 20:55:47,640 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 20:55:47,640 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 20:55:47,640 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 20:55:47,641 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734180947.6397989'}}
+ERROR - 2024-12-14 20:55:49,685 -sendrequests.py:24 - [sendrequests:send_request] -接口连接服务器异常
+INFO - 2024-12-14 20:56:22,446 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 20:56:22,446 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 20:56:22,446 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 20:56:22,446 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 20:56:22,446 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 20:56:22,446 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 20:56:22,446 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734180982.4461818'}}
+INFO - 2024-12-14 20:56:22,458 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 20:56:22,458 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"ACace9Def5BCFDdbfeCB1E109C2f0","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 20:56:22,458 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 20:56:22,458 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 20:56:22,459 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 20:56:22,459 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-14 20:56:22,459 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 20:56:22,459 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 20:56:22,459 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1734180982.4583442'}}
+INFO - 2024-12-14 20:56:22,463 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-14 20:57:17,017 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 20:57:17,017 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 20:57:17,017 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 20:57:17,018 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 20:57:17,018 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 20:57:17,018 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 20:57:17,018 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181037.0176864'}}
+INFO - 2024-12-14 20:57:17,025 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 20:57:17,025 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"3ECab55158BaAbe6e15bCD3583CbC","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 20:57:55,416 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 20:57:55,416 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 20:57:55,416 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 20:57:55,417 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 20:57:55,417 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 20:57:55,417 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 20:57:55,417 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181075.4161072'}}
+INFO - 2024-12-14 20:57:55,422 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 20:57:55,422 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"BeABCB4de9038c0C2c12fFBD1AE3a","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 20:58:40,035 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 20:58:40,035 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 20:58:40,036 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 20:58:40,036 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 20:58:40,036 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 20:58:40,036 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 20:58:40,036 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181120.0351324'}}
+INFO - 2024-12-14 20:58:40,042 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 20:58:40,042 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"9287cDC939E17dBDe961036B567Db","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 20:59:04,995 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 20:59:04,995 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 20:59:04,996 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 20:59:04,996 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 20:59:04,996 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 20:59:04,996 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 20:59:04,996 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181144.9951441'}}
+INFO - 2024-12-14 20:59:05,001 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 20:59:05,002 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"804b6AEc16cFe8fC4F706bcBD96fa","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 20:59:21,565 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 20:59:21,565 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 20:59:21,565 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 20:59:21,565 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 20:59:21,565 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 20:59:21,565 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 20:59:21,565 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181161.5653698'}}
+INFO - 2024-12-14 20:59:21,572 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 20:59:21,572 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"CcafD5baD57d5f2bCC001210e4ABE","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:00:22,075 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:00:22,075 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:00:22,075 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:00:22,075 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:00:22,075 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:00:22,076 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:00:22,076 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181222.0743654'}}
+INFO - 2024-12-14 21:00:22,081 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:00:22,081 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"E53eefEd2B61beb4Ec17eD5642dEb","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:00:55,332 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:00:55,332 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:00:55,332 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:00:55,333 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:00:55,333 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:00:55,333 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:00:55,333 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181255.3323667'}}
+INFO - 2024-12-14 21:00:55,339 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:00:55,339 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"28AA2eD92FCf211ffEe929DCbeCdA","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:01:27,714 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:01:27,714 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:01:27,714 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:01:27,715 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:01:27,715 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:01:27,715 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:01:27,715 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181287.7143855'}}
+INFO - 2024-12-14 21:01:27,721 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:01:27,721 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"65e37cBf682C5E5cA0Ea3b46FBA99","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:01:49,167 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:01:49,167 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:01:49,168 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:01:49,168 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:01:49,168 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:01:49,168 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:01:49,168 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181309.1673286'}}
+INFO - 2024-12-14 21:01:49,174 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:01:49,174 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"15BcED5dAFaDff0aEA9E8cEE5CAfC","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:02:09,491 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:02:09,491 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:02:09,491 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:02:09,492 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:02:09,492 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:02:09,492 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:02:09,492 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181329.491048'}}
+INFO - 2024-12-14 21:02:09,498 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:02:09,498 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"3e336DEFe2Fb6FBb79239CB67233d","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:02:26,241 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:02:26,241 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:02:26,241 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:02:26,241 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:02:26,241 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:02:26,242 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:02:26,242 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181346.2413778'}}
+INFO - 2024-12-14 21:02:26,248 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:02:26,248 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"e0e65d8BfF1fD4C813Dd3e737d4ec","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:06:50,307 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:06:50,307 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:06:50,307 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:06:50,307 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:06:50,308 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:06:50,308 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:06:50,308 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181610.3074272'}}
+INFO - 2024-12-14 21:06:50,314 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:06:50,314 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"E3B4bABAdE22BE9C3c1d3b27Ef1E7","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:07:54,062 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:07:54,062 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:07:54,062 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:07:54,063 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:07:54,063 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:07:54,063 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:07:54,063 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181674.0627563'}}
+INFO - 2024-12-14 21:07:54,069 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:07:54,069 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"8Ed5c5Bf4DbFA4D0A8542bF8167DD","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:11:48,982 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:11:48,983 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:11:48,983 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:11:48,983 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:11:48,983 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:11:48,983 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:11:48,984 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734181908.982037'}}
+INFO - 2024-12-14 21:11:48,988 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:11:48,989 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"5C075560FD13d5Faab3738bbbA0fC","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:19:16,339 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:19:16,339 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:19:16,339 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:19:16,340 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:19:16,340 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:19:16,340 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:19:16,340 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734182356.3396165'}}
+INFO - 2024-12-14 21:19:16,346 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:19:16,346 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"b345bCF80Abe8cEd6ECdC040d524b","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:22:19,712 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:22:19,713 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:22:19,713 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:22:19,713 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:22:19,713 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:22:19,714 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:22:19,714 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734182539.7121036'}}
+INFO - 2024-12-14 21:22:19,719 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:22:19,720 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"82f88cc4a75D76826325aD8A5936f","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:22:19,720 -apiutil.py:111 - [apiutil:extract_data] -正则表达式提取到的参数:{'token': '82f88cc4a75D76826325aD8A5936f'}
+INFO - 2024-12-14 21:23:34,999 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:23:34,999 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:23:34,999 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:23:35,000 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:23:35,000 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:23:35,000 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:23:35,000 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734182614.9997504'}}
+INFO - 2024-12-14 21:23:35,006 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:23:35,007 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"d8b80E6dC4B458AdB9c8bF932c52A","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:23:35,007 -apiutil.py:111 - [apiutil:extract_data] -正则表达式提取到的参数:{'token': 'd8b80E6dC4B458AdB9c8bF932c52A'}
+INFO - 2024-12-14 21:24:39,927 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:24:39,927 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:24:39,927 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:24:39,928 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:24:39,928 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:24:39,928 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:24:39,928 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734182679.927865'}}
+INFO - 2024-12-14 21:24:39,934 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:24:39,934 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"FeB0894CDc09bbDbd2d86C062B1AF","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:24:39,935 -apiutil.py:111 - [apiutil:extract_data] -正则表达式提取到的参数:{'token': 'FeB0894CDc09bbDbd2d86C062B1AF'}
+INFO - 2024-12-14 21:30:24,653 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:30:24,653 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:30:24,655 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:30:24,655 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:30:24,655 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:30:24,655 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:30:24,655 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183024.6539502'}}
+INFO - 2024-12-14 21:30:24,661 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:30:24,661 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"5eF8AF9e8Af0AB5Ed030ff1BDAD42","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:30:41,458 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:30:41,458 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:30:41,459 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:30:41,459 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:30:41,459 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:30:41,459 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:30:41,459 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183041.4581838'}}
+INFO - 2024-12-14 21:30:41,465 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:30:41,465 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"DdA48EfE95554cCcA2DBbB3f7CEBf","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:37:55,444 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:37:55,444 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:37:55,444 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:37:55,444 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:37:55,445 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:37:55,445 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:37:55,445 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183475.4446955'}}
+INFO - 2024-12-14 21:37:55,450 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:37:55,451 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"4888172CD9cdA38D25211b875C3c3","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:37:55,458 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:37:55,458 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:37:55,458 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:37:55,458 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:37:55,458 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:37:55,459 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:37:55,459 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183475.4583733'}}
+INFO - 2024-12-14 21:37:55,462 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:37:55,462 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"a02D99fFa9C70edC3C52FA5A4dD6c","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:41:51,928 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:41:51,929 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:41:51,929 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:41:51,929 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:41:51,929 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:41:51,930 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:41:51,930 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183711.9280941'}}
+INFO - 2024-12-14 21:41:51,935 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:41:51,935 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"E3FcA2FD543B8b4CeDcFb3a95ba86","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:41:51,941 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:41:51,942 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:41:51,942 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:41:51,942 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:41:51,942 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:41:51,942 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:41:51,942 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183711.9418392'}}
+INFO - 2024-12-14 21:41:51,947 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:41:51,947 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"0e30F03aDF1fBefD7e9897Cda98Aa","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:43:57,570 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:43:57,571 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:43:57,571 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:43:57,572 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:43:57,572 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:43:57,572 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:43:57,572 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183837.5704274'}}
+INFO - 2024-12-14 21:43:57,578 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:43:57,578 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"fA867C233ac58A3a02EA7Cc3aaC6A","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:43:57,585 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:43:57,585 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:43:57,585 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:43:57,585 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:43:57,585 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:43:57,586 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:43:57,586 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183837.5852475'}}
+INFO - 2024-12-14 21:43:57,589 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:43:57,589 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"F8F3ec8b273520f51F1bc5be62959","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:44:28,159 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:44:28,159 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:44:28,159 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:44:28,159 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:44:28,160 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:44:28,160 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:44:28,160 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183868.159864'}}
+INFO - 2024-12-14 21:44:28,166 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:44:28,166 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"Ba16ACe4bb6BEf365aBb7C66674D7","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:44:28,173 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:44:28,173 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:44:28,173 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:44:28,174 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:44:28,174 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:44:28,174 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:44:28,174 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183868.1737957'}}
+INFO - 2024-12-14 21:44:28,178 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:44:28,179 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"9aE2Ee788239fdD560924AE2Daad0","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:45:30,876 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:45:30,876 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:45:30,876 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:45:30,877 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:45:30,877 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:45:30,877 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:45:30,877 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183930.8765764'}}
+INFO - 2024-12-14 21:45:30,883 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:45:30,883 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"D23Dd4A6e0E084B6fCA76dFcD7dE6","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:45:30,884 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': 'D23Dd4A6e0E084B6fCA76dFcD7dE6'}
+INFO - 2024-12-14 21:45:30,889 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:45:30,890 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:45:30,890 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:45:30,890 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:45:30,890 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:45:30,891 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:45:30,891 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734183930.8898156'}}
+INFO - 2024-12-14 21:45:30,895 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:45:30,895 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"Db9dcaBdA00b91643DcD2aacE17B6","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:45:30,896 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': 'Db9dcaBdA00b91643DcD2aacE17B6'}
+INFO - 2024-12-14 21:51:45,889 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 21:51:45,892 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:51:45,893 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:51:45,893 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:51:45,893 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:51:45,893 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:51:45,893 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:51:45,894 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734184305.8929536'}}
+INFO - 2024-12-14 21:51:45,899 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:51:45,900 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"A25431c58f97Daef7A585a8a4FA5c","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:51:45,901 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': 'A25431c58f97Daef7A585a8a4FA5c'}
+INFO - 2024-12-14 21:51:45,907 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:51:45,907 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:51:45,908 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:51:45,908 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:51:45,908 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:51:45,908 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:51:45,908 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734184305.9075036'}}
+INFO - 2024-12-14 21:51:45,913 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:51:45,913 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"0a5e6faBd3A191D8Cc45788bed0dE","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:51:45,914 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '0a5e6faBd3A191D8Cc45788bed0dE'}
+INFO - 2024-12-14 21:51:45,916 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 21:54:02,657 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 21:54:02,661 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 21:54:02,662 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 21:54:02,662 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 21:54:02,662 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 21:54:02,662 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 21:54:02,662 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 21:54:02,663 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734184442.6615553'}}
+INFO - 2024-12-14 21:54:02,669 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 21:54:02,669 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"68CeBb424aBe213C1B264a6ccE4Fa","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 21:54:02,670 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '68CeBb424aBe213C1B264a6ccE4Fa'}
+INFO - 2024-12-14 21:54:02,672 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:21:00,557 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:21:00,562 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:21:00,562 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:21:00,562 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:21:00,563 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:21:00,563 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:21:00,563 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:21:00,563 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734186060.5625925'}}
+INFO - 2024-12-14 22:21:00,569 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:21:00,570 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"aE624e8afa7fD12c8812Cb6DDca81","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:21:00,571 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': 'aE624e8afa7fD12c8812Cb6DDca81'}
+INFO - 2024-12-14 22:21:00,577 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:21:00,578 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:21:00,578 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:get
+INFO - 2024-12-14 22:21:00,578 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:21:00,578 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:21:00,578 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:21:00,578 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'msgType': 'getHandsetListOfCust,', 'page': '1,', 'size': 20}}
+INFO - 2024-12-14 22:21:00,582 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"9001","msg":"参数错误"}
+
+ERROR - 2024-12-14 22:21:00,583 -apiutil.py:127 - [apiutil:extract_data] -接口返回值提取异常,请检查yaml文件的extract表达式是否正确
+INFO - 2024-12-14 22:21:00,584 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:21:29,263 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:21:29,268 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:21:29,268 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:21:29,268 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:21:29,268 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:21:29,268 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:21:29,269 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:21:29,269 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734186089.268064'}}
+INFO - 2024-12-14 22:21:29,274 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:21:29,274 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"AcCba3c3Cc6eb6bEeE9aC5a0c1cFC","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:21:29,275 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': 'AcCba3c3Cc6eb6bEeE9aC5a0c1cFC'}
+INFO - 2024-12-14 22:21:29,282 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:21:29,282 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:21:29,282 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:get
+INFO - 2024-12-14 22:21:29,282 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:21:29,282 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:21:29,283 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:21:29,283 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust,', 'page': '1,', 'size': 20}}
+INFO - 2024-12-14 22:21:29,286 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:21:29","secache_time":1734186089000,"translate_language":"zh-CN"}
+
+ERROR - 2024-12-14 22:21:29,286 -apiutil.py:127 - [apiutil:extract_data] -接口返回值提取异常,请检查yaml文件的extract表达式是否正确
+INFO - 2024-12-14 22:21:29,289 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:39:13,020 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:39:13,024 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:39:13,024 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:39:13,025 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:39:13,025 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:39:13,025 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:39:13,025 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:39:13,026 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734187153.024059'}}
+INFO - 2024-12-14 22:39:13,031 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:39:13,031 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"0d6C78679bc27EA99C929942b52fE","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:39:13,032 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '0d6C78679bc27EA99C929942b52fE'}
+INFO - 2024-12-14 22:39:13,039 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:39:13,039 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:39:13,039 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:39:13,039 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:39:13,039 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:39:13,039 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:39:13,039 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust,', 'page': '1,', 'size': 20}}
+INFO - 2024-12-14 22:39:13,042 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:39:13","secache_time":1734187153000,"translate_language":"zh-CN"}
+
+ERROR - 2024-12-14 22:39:13,044 -apiutil.py:127 - [apiutil:extract_data] -接口返回值提取异常,请检查yaml文件的extract表达式是否正确
+INFO - 2024-12-14 22:39:13,045 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:40:25,416 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:40:25,420 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:40:25,420 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:40:25,420 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:40:25,422 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:40:25,422 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:40:25,422 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:40:25,422 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734187225.4207442'}}
+INFO - 2024-12-14 22:40:25,427 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:40:25,428 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"20De8699eD323E4bf1BcBe40Df8b0","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:40:25,429 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '20De8699eD323E4bf1BcBe40Df8b0'}
+INFO - 2024-12-14 22:40:25,436 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:40:25,436 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:40:25,436 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:40:25,436 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:40:25,436 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:40:25,437 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:40:25,437 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust,', 'page': '1,', 'size': 20}}
+INFO - 2024-12-14 22:40:25,439 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:40:25","secache_time":1734187225000,"translate_language":"zh-CN"}
+
+ERROR - 2024-12-14 22:40:25,440 -apiutil.py:127 - [apiutil:extract_data] -接口返回值提取异常,请检查yaml文件的extract表达式是否正确
+INFO - 2024-12-14 22:40:25,441 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:43:36,232 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:43:36,237 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:43:36,237 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:43:36,237 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:43:36,237 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:43:36,237 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:43:36,237 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:43:36,237 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734187416.2361362'}}
+INFO - 2024-12-14 22:43:36,243 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:43:36,244 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"1FaA09CF6236E6C362c04fC1fDAe3","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:43:36,245 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '1FaA09CF6236E6C362c04fC1fDAe3'}
+INFO - 2024-12-14 22:43:36,252 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:43:36,252 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:43:36,252 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:43:36,252 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:43:36,252 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:43:36,252 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:43:36,253 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust,', 'page': '1,', 'size': 20}}
+INFO - 2024-12-14 22:43:36,256 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:43:36","secache_time":1734187416000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:43:36,257 -apiutil.py:151 - [apiutil:extract_data_list] -json提取到参数:{'token': '未提取到数据,该接口返回结果可能为空'}
+INFO - 2024-12-14 22:43:36,258 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:45:17,241 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:45:17,246 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:45:17,246 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:45:17,246 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:45:17,247 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:45:17,247 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:45:17,247 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:45:17,247 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734187517.246462'}}
+INFO - 2024-12-14 22:45:17,253 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:45:17,253 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"8b0e3C03AeFD4ED1d92199DcEdbAF","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:45:17,254 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '8b0e3C03AeFD4ED1d92199DcEdbAF'}
+INFO - 2024-12-14 22:45:17,260 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:45:17,262 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:45:17,262 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:45:17,262 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:45:17,263 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:45:17,263 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:45:17,263 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCus', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 22:45:17,267 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:45:17","secache_time":1734187517000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:45:17,268 -apiutil.py:151 - [apiutil:extract_data_list] -json提取到参数:{'token': '未提取到数据,该接口返回结果可能为空'}
+INFO - 2024-12-14 22:45:17,270 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:50:22,328 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:50:22,332 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:50:22,332 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:50:22,333 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:50:22,333 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:50:22,333 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:50:22,333 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:50:22,333 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734187822.3325171'}}
+INFO - 2024-12-14 22:50:22,339 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:50:22,339 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"a5bd47Cc21fA31ACDAcaacbdB4766","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:50:22,341 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': 'a5bd47Cc21fA31ACDAcaacbdB4766'}
+INFO - 2024-12-14 22:50:22,347 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:50:22,347 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:50:22,348 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:50:22,348 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:50:22,348 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:50:22,348 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:50:22,349 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCus', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 22:50:22,352 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:50:22","secache_time":1734187822000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:50:22,352 -apiutil.py:151 - [apiutil:extract_data_list] -json提取到参数:{'token': '未提取到数据,该接口返回结果可能为空'}
+INFO - 2024-12-14 22:50:22,354 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:51:21,940 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:51:21,943 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:51:21,944 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:51:21,944 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:51:21,945 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:51:21,945 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:51:21,945 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:51:21,945 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734187881.9436488'}}
+INFO - 2024-12-14 22:51:21,950 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:51:21,950 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"C6b66fAe2bbEC5e92406E350DfBfd","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:51:21,952 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': 'C6b66fAe2bbEC5e92406E350DfBfd'}
+INFO - 2024-12-14 22:51:21,957 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:51:21,957 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:51:21,959 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:51:21,959 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:51:21,959 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'}
+INFO - 2024-12-14 22:51:21,959 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:51:21,959 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCus', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 22:51:21,962 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:51:21","secache_time":1734187881000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:51:21,963 -apiutil.py:151 - [apiutil:extract_data_list] -json提取到参数:{'token': '未提取到数据,该接口返回结果可能为空'}
+INFO - 2024-12-14 22:51:21,964 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:52:40,390 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:52:40,394 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:52:40,395 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:52:40,395 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:52:40,395 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:52:40,395 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:52:40,395 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:52:40,396 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734187960.3948114'}}
+INFO - 2024-12-14 22:52:40,401 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:52:40,401 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"2C55A31cc3FF0fc6E00057Cf116d7","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:52:40,403 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '2C55A31cc3FF0fc6E00057Cf116d7'}
+INFO - 2024-12-14 22:52:40,409 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:52:40,409 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:52:40,409 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:52:40,409 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:52:40,409 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:52:40,409 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:52:40,410 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCus', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 22:52:40,413 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:52:40","secache_time":1734187960000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:52:40,413 -apiutil.py:151 - [apiutil:extract_data_list] -json提取到参数:{'token': '未提取到数据,该接口返回结果可能为空'}
+INFO - 2024-12-14 22:52:40,416 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:53:43,814 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:53:43,818 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:53:43,819 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:53:43,819 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:53:43,819 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:53:43,819 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:53:43,819 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:53:43,820 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734188023.8187363'}}
+INFO - 2024-12-14 22:53:43,825 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:53:43,826 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"85E37bE9AbDB943fD3357c05dad36","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:53:43,827 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '85E37bE9AbDB943fD3357c05dad36'}
+INFO - 2024-12-14 22:53:43,832 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:53:43,833 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:53:43,833 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:get
+INFO - 2024-12-14 22:53:43,833 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:53:43,833 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:53:43,834 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:53:43,834 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCus', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 22:53:43,837 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":"4000","goodsList":[],"secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 22:53:43","secache_time":1734188023000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:53:43,837 -apiutil.py:151 - [apiutil:extract_data_list] -json提取到参数:{'token': '未提取到数据,该接口返回结果可能为空'}
+INFO - 2024-12-14 22:53:43,840 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:55:34,773 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:55:34,777 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:55:34,777 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:55:34,777 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:55:34,777 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:55:34,777 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:55:34,778 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:55:34,778 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734188134.7777317'}}
+INFO - 2024-12-14 22:55:34,783 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:55:34,783 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"9C7a49c3f953366de05acdcdc54C7","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:55:34,785 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '9C7a49c3f953366de05acdcdc54C7'}
+INFO - 2024-12-14 22:55:34,791 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:55:34,792 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:55:34,792 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:55:34,792 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:55:34,792 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:55:34,792 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:55:34,793 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 22:55:34,796 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:55:34,797 -apiutil.py:151 - [apiutil:extract_data_list] -json提取到参数:{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 22:55:34,798 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:55:59,232 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:55:59,235 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:55:59,236 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:55:59,236 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:55:59,237 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:55:59,237 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:55:59,237 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:55:59,237 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734188159.2356148'}}
+INFO - 2024-12-14 22:55:59,243 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:55:59,243 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"13F4FDd2635E55ccCB8e1B9Bdb3F1","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:55:59,244 -apiutil.py:124 - [apiutil:extract_data] -json提取到的参数:{'token': '13F4FDd2635E55ccCB8e1B9Bdb3F1'}
+INFO - 2024-12-14 22:55:59,250 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:55:59,250 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:55:59,250 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:55:59,250 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:55:59,251 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:55:59,251 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:55:59,251 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 22:55:59,255 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:55:59,255 -apiutil.py:151 - [apiutil:extract_data_list] -json提取到参数:{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 22:55:59,256 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 22:58:27,623 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 22:58:27,627 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 22:58:27,627 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 22:58:27,627 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 22:58:27,628 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 22:58:27,628 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:58:27,628 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:58:27,628 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734188307.627382'}}
+INFO - 2024-12-14 22:58:27,633 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 22:58:27,633 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"Bc1E80B15f0CE547A4dFFB3D69F76","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 22:58:27,636 -apiutil.py:125 - [apiutil:extract_data] -json提取到的参数:{'token': 'Bc1E80B15f0CE547A4dFFB3D69F76'}
+INFO - 2024-12-14 22:58:27,641 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 22:58:27,642 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 22:58:27,642 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 22:58:27,642 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 22:58:27,642 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 22:58:27,642 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 22:58:27,642 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 22:58:27,646 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 22:58:27,647 -apiutil.py:152 - [apiutil:extract_data_list] -json提取到参数:{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 22:58:27,650 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 23:01:26,941 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 23:01:26,945 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 23:01:26,945 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 23:01:26,945 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 23:01:26,945 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 23:01:26,946 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:01:26,946 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:01:26,946 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734188486.9457903'}}
+INFO - 2024-12-14 23:01:26,952 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 23:01:26,953 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"b06Ed87fbE2f5dD93B57f238A143B","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 23:01:26,954 -apiutil.py:126 - [apiutil:extract_data] -json提取到的参数:{'token': 'b06Ed87fbE2f5dD93B57f238A143B'}
+INFO - 2024-12-14 23:01:26,962 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 23:01:26,962 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 23:01:26,962 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 23:01:26,963 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 23:01:26,963 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:01:26,963 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:01:26,963 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:01:26,966 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:01:26,968 -apiutil.py:153 - [apiutil:extract_data_list] -json提取到参数:{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 23:01:26,970 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 23:03:11,811 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 23:03:11,815 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 23:03:11,815 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 23:03:11,816 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 23:03:11,816 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 23:03:11,816 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:03:11,816 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:03:11,816 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734188591.8153477'}}
+INFO - 2024-12-14 23:03:11,822 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 23:03:11,823 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"caeBdeECF41CBD9DB56f8A0e8b3Df","userId":"8872843014663854240"}
+
+ERROR - 2024-12-14 23:03:11,823 -apiutil.py:96 - [apiutil:specification_yaml] -a bytes-like object is required, not 'dict'
+INFO - 2024-12-14 23:03:12,023 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 23:03:12,023 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 23:03:12,023 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 23:03:12,023 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 23:03:12,024 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:03:12,024 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:03:12,024 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:03:12,028 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+ERROR - 2024-12-14 23:03:12,029 -apiutil.py:96 - [apiutil:specification_yaml] -a bytes-like object is required, not 'dict'
+INFO - 2024-12-14 23:03:12,062 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 23:03:36,059 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 23:03:36,064 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 23:03:36,064 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 23:03:36,064 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 23:03:36,064 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 23:03:36,064 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:03:36,065 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:03:36,065 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734188616.0641646'}}
+INFO - 2024-12-14 23:03:36,070 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 23:03:36,071 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"1eF55740C0148669FAd8df4A2fFCa","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 23:03:36,072 -apiutil.py:126 - [apiutil:extract_data] -json提取到的参数:{'token': '1eF55740C0148669FAd8df4A2fFCa'}
+INFO - 2024-12-14 23:03:36,079 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 23:03:36,079 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 23:03:36,079 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 23:03:36,080 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 23:03:36,080 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:03:36,080 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:03:36,080 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:03:36,084 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:03:36,085 -apiutil.py:153 - [apiutil:extract_data_list] -json提取到参数:{'token': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 23:03:36,087 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 23:05:45,521 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 23:05:45,525 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 23:05:45,526 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 23:05:45,526 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 23:05:45,526 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 23:05:45,526 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:05:45,527 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:05:45,527 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734188745.525039'}}
+INFO - 2024-12-14 23:05:45,532 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 23:05:45,533 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"c3aFeefeE308dc7eAa15DFb68AD13","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 23:05:45,534 -apiutil.py:126 - [apiutil:extract_data] -json提取到的参数:{'token': 'c3aFeefeE308dc7eAa15DFb68AD13'}
+INFO - 2024-12-14 23:05:45,540 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 23:05:45,541 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 23:05:45,541 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 23:05:45,541 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 23:05:45,541 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:05:45,541 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:05:45,541 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:05:45,546 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:05:45,547 -apiutil.py:153 - [apiutil:extract_data_list] -json提取到参数:{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 23:05:45,549 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 23:17:13,284 -conftest.py:14 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 23:17:13,287 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 23:17:13,288 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 23:17:13,288 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 23:17:13,288 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 23:17:13,288 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:17:13,289 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:17:13,289 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734189433.2874584'}}
+INFO - 2024-12-14 23:17:13,295 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 23:17:13,295 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"86a54b77Ce6676fC4f8c34baBAF15","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 23:17:13,296 -apiutil.py:126 - [apiutil:extract_data] -json提取到的参数:{'token': '86a54b77Ce6676fC4f8c34baBAF15'}
+INFO - 2024-12-14 23:17:13,302 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 23:17:13,303 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 23:17:13,303 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 23:17:13,303 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 23:17:13,303 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:17:13,303 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:17:13,303 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:17:13,307 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:17:13,309 -apiutil.py:153 - [apiutil:extract_data_list] -json提取到参数:{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 23:17:13,322 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品详情
+INFO - 2024-12-14 23:17:13,322 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2024-12-14 23:17:13,322 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Post
+INFO - 2024-12-14 23:17:13,323 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品详情
+INFO - 2024-12-14 23:17:13,323 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/json;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:17:13,323 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:17:13,323 -sendrequests.py:58 - [sendrequests:run_main] -请求参数:{'json': {'pro_id': '33809635011', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:17:13,327 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","api_type":"pinduoduo","cache":0,"call_args":{"num_iid":"1620002566"},"client_ip":"106.6.39.223","error":"","error_code":"0000","execution_time":"0.437","goodsId":"33809635011","item":{"AmountOnSale":3188,"CategoryId":8484,"Coupon":null,"Delivery":{"From":null,"Info":null,"MarkInfo":null,"Postage":"快递 免运费","To":null,"extras":null},"DescUrl":null,"Detail":"<img src=\"https://img.pddpic.com/mms-material-img/2022-09-18/3f89d470-1af8-4dee-b529-6d62aa2ea3b7.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-02-15/ddf6fe7b-b536-4183-932d-69a1189a3f59.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/20f659b04d3e7e5851c27ff9931c96fc.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-11-14/4420a8c3-49ed-46d8-ab55-15e7a638ca31.jpg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/26c3e9d5cfbaf4e8f13b2bdd38f48d71.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/0aa872fa74599dad7b6aefe6b6c035c0.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6bc959e32a30424c7a5284a37676999c.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/1fa9861a8c99c5e9e8119fd2239fef5a.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/b62cabf1d2320c5761e3f4c15203fb20.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6f6e54376a66cbc78e16700d4c424fe1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/2f60753dfc875a6876adc35833a69d31.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/ae0116e589d8de712f8dafd0c356cefe.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/da910c98fcc8de1b4d2d1498cd7899fd.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/140349649d8b7d08c8e88bfbbaa2f900.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/a953bae2eeb7364ef3ef2976a97d07eb.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4da59828136c3b1308aad0aa990778a7.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4a365b61a80e47288c8609ccd5982396.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/cd0a8a96b783a51236812ce24c59a329.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/16008ac19768d05e7dee16406ff958a1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/ef1d17b69ebf9449a8bb52459b168c26.jpeg\" style=\"width:100%;\"/>","FansCount":null,"ImageUrls":["https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/d209ef7bcc9183c3bb8ca1dfdb108d49.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/74257ab65f3f00da7a90fde9042fe640.jpeg","https://t00img.yangkeduo.com/goods/images/2019-08-17/e8fbd9cb-cc74-4caa-9380-84c46d27b008.jpg","https://t00img.yangkeduo.com/goods/images/2019-08-17/d76f515b-e375-4060-b94e-cf64f6b0964e.jpg","https://t00img.yangkeduo.com/goods/images/2019-08-17/f2f279b5-6000-4fbe-b99b-7c1cbd7884ea.jpg"],"MainImageVideo":null,"OfferId":1620002566,"OriginalPriceRangeInfos":[{"ConvertPrice":0,"Price":115,"Range":"3"}],"PriceRangeInfos":[{"ConvertPrice":0,"Price":95.4,"Range":"3"}],"ProductFeatureTuples":[{"Item1":"面料材质","Item2":"仿皮草"},{"Item1":"成分含量","Item2":"71%（含）—80%（含）"},{"Item1":"版型","Item2":"修身"},{"Item1":"领型","Item2":"圆领"},{"Item1":"衣长","Item2":"短款"},{"Item1":"是否带毛领","Item2":"不带毛领"},{"Item1":"主风格","Item2":"气质名媛"}],"ProductFeatures":{"主风格":"气质名媛","成分含量":"71%（含）—80%（含）","是否带毛领":"不带毛领","版型":"修身","衣长":"短款","面料材质":"仿皮草","领型":"圆领"},"RateCount":null,"RetryCount":0,"SellCount":"已拼4.2万件","SellerId":null,"SellerNick":null,"ShopId":"461742","ShopInfo":null,"ShopName":"果果家气质女装","ShopUrl":"http://yangkeduo.com/mall_page.html?mall_id=461742","SkuMaps":[{"AmountOnSale":73,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"57114357891","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":65,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"57114357892","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":82,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"57114357893","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":89,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"57114357894","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":94,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"57114357895","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":105,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"57114357896","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":1051,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"57114357897","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":88,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"57114357898","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":80,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"57114357899","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":660,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"57114357900","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":126,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"57114357901","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":89,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"57114357902","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":98,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg","Key":"1215:105309781;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"103851107855","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":95,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/3660b7893ca5cda1ffcea745d10b2506.jpeg","Key":"1215:105309781;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"103851107856","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":97,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/a4a5a671afbb2d8e1f4c21c0ced3bea8.jpeg","Key":"1215:105309781;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"103851107857","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":97,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/f0551176629bf81f25757c160198dba1.jpeg","Key":"1215:105309781;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"103851107858","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":99,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/801a2e23140bfe76229f02aab0a8a5fe.jpeg","Key":"1215:105309781;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"103851107853","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":100,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/2f202934f16f0eee41257b77bf489262.jpeg","Key":"1215:105309781;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"103851107854","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"蓝色两件套（外套+裙子）"}}],"SkuProps":[{"IsImg":true,"Prop":"颜色","Value":[{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","name":"粉色两件套(外套+裙子)","value":"1215:1115500378"},{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","name":"米色两件套（外套+裙子）","value":"1215:1115501666"},{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg","name":"蓝色两件套（外套+裙子）","value":"1215:105309781"}]},{"IsImg":false,"Prop":"尺码","Value":[{"name":"S（90斤以下）","value":"1226:119128"},{"name":"M（90-100斤）","value":"1226:96784"},{"name":"L（100-110斤）","value":"1226:33651"},{"name":"XL（110-120斤）","value":"1226:33652"},{"name":"2XL（120-130斤）","value":"1226:33653"},{"name":"3XL（130-140斤）","value":"1226:33656"}]}],"SourceType":6,"Subject":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","Tag":null,"Unit":null,"UserId":"461742","_ddf":"app","format_check":"ok"},"reason":"","request_id":"gw-4.63510267214bd","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 23:17:13","secache_time":1666253415,"server_memory":"0.84MB","server_time":"Beijing/2023-10-20 16:10:15","translate_engine":"baidu","translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:17:13,333 -conftest.py:16 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 23:30:24,785 -conftest.py:25 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 23:30:24,789 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 23:30:24,789 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 23:30:24,789 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 23:30:24,789 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 23:30:24,790 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:30:24,790 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:30:24,790 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734190224.7899547'}}
+INFO - 2024-12-14 23:30:24,796 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 23:30:24,797 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"6E6dFB05Fa9ddCB17CcfFC2e4EE24","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 23:30:24,799 -apiutil.py:126 - [apiutil:extract_data] -json提取到的参数:{'token': '6E6dFB05Fa9ddCB17CcfFC2e4EE24'}
+INFO - 2024-12-14 23:30:24,805 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 23:30:24,805 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 23:30:24,805 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 23:30:24,805 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 23:30:24,805 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:30:24,806 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:30:24,806 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:30:24,809 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:30:24,810 -apiutil.py:153 - [apiutil:extract_data_list] -json提取到参数:{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 23:30:24,822 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品详情
+INFO - 2024-12-14 23:30:24,822 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2024-12-14 23:30:24,824 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Post
+INFO - 2024-12-14 23:30:24,824 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品详情
+INFO - 2024-12-14 23:30:24,824 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/json;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:30:24,824 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:30:24,824 -sendrequests.py:58 - [sendrequests:run_main] -请求参数:{'json': {'pro_id': '18382788819', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:30:24,828 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","api_type":"pinduoduo","cache":0,"call_args":{"num_iid":"1620002566"},"client_ip":"106.6.39.223","error":"","error_code":"0000","execution_time":"0.437","goodsId":"82193785267","item":{"AmountOnSale":3188,"CategoryId":8484,"Coupon":null,"Delivery":{"From":null,"Info":null,"MarkInfo":null,"Postage":"快递 免运费","To":null,"extras":null},"DescUrl":null,"Detail":"<img src=\"https://img.pddpic.com/mms-material-img/2022-09-18/3f89d470-1af8-4dee-b529-6d62aa2ea3b7.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-02-15/ddf6fe7b-b536-4183-932d-69a1189a3f59.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/20f659b04d3e7e5851c27ff9931c96fc.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-11-14/4420a8c3-49ed-46d8-ab55-15e7a638ca31.jpg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/26c3e9d5cfbaf4e8f13b2bdd38f48d71.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/0aa872fa74599dad7b6aefe6b6c035c0.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6bc959e32a30424c7a5284a37676999c.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/1fa9861a8c99c5e9e8119fd2239fef5a.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/b62cabf1d2320c5761e3f4c15203fb20.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6f6e54376a66cbc78e16700d4c424fe1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/2f60753dfc875a6876adc35833a69d31.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/ae0116e589d8de712f8dafd0c356cefe.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/da910c98fcc8de1b4d2d1498cd7899fd.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/140349649d8b7d08c8e88bfbbaa2f900.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/a953bae2eeb7364ef3ef2976a97d07eb.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4da59828136c3b1308aad0aa990778a7.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4a365b61a80e47288c8609ccd5982396.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/cd0a8a96b783a51236812ce24c59a329.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/16008ac19768d05e7dee16406ff958a1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/ef1d17b69ebf9449a8bb52459b168c26.jpeg\" style=\"width:100%;\"/>","FansCount":null,"ImageUrls":["https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/d209ef7bcc9183c3bb8ca1dfdb108d49.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/74257ab65f3f00da7a90fde9042fe640.jpeg","https://t00img.yangkeduo.com/goods/images/2019-08-17/e8fbd9cb-cc74-4caa-9380-84c46d27b008.jpg","https://t00img.yangkeduo.com/goods/images/2019-08-17/d76f515b-e375-4060-b94e-cf64f6b0964e.jpg","https://t00img.yangkeduo.com/goods/images/2019-08-17/f2f279b5-6000-4fbe-b99b-7c1cbd7884ea.jpg"],"MainImageVideo":null,"OfferId":1620002566,"OriginalPriceRangeInfos":[{"ConvertPrice":0,"Price":115,"Range":"3"}],"PriceRangeInfos":[{"ConvertPrice":0,"Price":95.4,"Range":"3"}],"ProductFeatureTuples":[{"Item1":"面料材质","Item2":"仿皮草"},{"Item1":"成分含量","Item2":"71%（含）—80%（含）"},{"Item1":"版型","Item2":"修身"},{"Item1":"领型","Item2":"圆领"},{"Item1":"衣长","Item2":"短款"},{"Item1":"是否带毛领","Item2":"不带毛领"},{"Item1":"主风格","Item2":"气质名媛"}],"ProductFeatures":{"主风格":"气质名媛","成分含量":"71%（含）—80%（含）","是否带毛领":"不带毛领","版型":"修身","衣长":"短款","面料材质":"仿皮草","领型":"圆领"},"RateCount":null,"RetryCount":0,"SellCount":"已拼4.2万件","SellerId":null,"SellerNick":null,"ShopId":"461742","ShopInfo":null,"ShopName":"果果家气质女装","ShopUrl":"http://yangkeduo.com/mall_page.html?mall_id=461742","SkuMaps":[{"AmountOnSale":73,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"57114357891","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":65,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"57114357892","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":82,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"57114357893","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":89,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"57114357894","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":94,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"57114357895","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":105,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"57114357896","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":1051,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"57114357897","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":88,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"57114357898","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":80,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"57114357899","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":660,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"57114357900","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":126,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"57114357901","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":89,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"57114357902","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":98,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg","Key":"1215:105309781;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"103851107855","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":95,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/3660b7893ca5cda1ffcea745d10b2506.jpeg","Key":"1215:105309781;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"103851107856","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":97,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/a4a5a671afbb2d8e1f4c21c0ced3bea8.jpeg","Key":"1215:105309781;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"103851107857","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":97,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/f0551176629bf81f25757c160198dba1.jpeg","Key":"1215:105309781;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"103851107858","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":99,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/801a2e23140bfe76229f02aab0a8a5fe.jpeg","Key":"1215:105309781;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"103851107853","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":100,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/2f202934f16f0eee41257b77bf489262.jpeg","Key":"1215:105309781;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"103851107854","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"蓝色两件套（外套+裙子）"}}],"SkuProps":[{"IsImg":true,"Prop":"颜色","Value":[{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","name":"粉色两件套(外套+裙子)","value":"1215:1115500378"},{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","name":"米色两件套（外套+裙子）","value":"1215:1115501666"},{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg","name":"蓝色两件套（外套+裙子）","value":"1215:105309781"}]},{"IsImg":false,"Prop":"尺码","Value":[{"name":"S（90斤以下）","value":"1226:119128"},{"name":"M（90-100斤）","value":"1226:96784"},{"name":"L（100-110斤）","value":"1226:33651"},{"name":"XL（110-120斤）","value":"1226:33652"},{"name":"2XL（120-130斤）","value":"1226:33653"},{"name":"3XL（130-140斤）","value":"1226:33656"}]}],"SourceType":6,"Subject":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","Tag":null,"Unit":null,"UserId":"461742","_ddf":"app","format_check":"ok"},"reason":"","request_id":"gw-4.63510267214bd","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 23:30:24","secache_time":1666253415,"server_memory":"0.84MB","server_time":"Beijing/2023-10-20 16:10:15","translate_engine":"baidu","translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:30:24,834 -conftest.py:27 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 23:30:38,498 -conftest.py:25 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 23:30:38,503 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 23:30:38,503 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 23:30:38,503 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 23:30:38,504 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 23:30:38,504 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:30:38,504 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:30:38,504 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734190238.5033624'}}
+INFO - 2024-12-14 23:30:38,509 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 23:30:38,510 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"079bc8385D6dB31dcFe1CF14973a3","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 23:30:38,512 -apiutil.py:126 - [apiutil:extract_data] -json提取到的参数:{'token': '079bc8385D6dB31dcFe1CF14973a3'}
+INFO - 2024-12-14 23:30:38,518 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 23:30:38,518 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 23:30:38,518 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 23:30:38,519 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 23:30:38,519 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:30:38,519 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:30:38,519 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:30:38,523 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:30:38,524 -apiutil.py:153 - [apiutil:extract_data_list] -json提取到参数:{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 23:30:38,536 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品详情
+INFO - 2024-12-14 23:30:38,538 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2024-12-14 23:30:38,538 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Post
+INFO - 2024-12-14 23:30:38,538 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品详情
+INFO - 2024-12-14 23:30:38,538 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/json;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:30:38,538 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:30:38,538 -sendrequests.py:58 - [sendrequests:run_main] -请求参数:{'json': {'pro_id': '33809635011', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:30:38,542 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","api_type":"pinduoduo","cache":0,"call_args":{"num_iid":"1620002566"},"client_ip":"106.6.39.223","error":"","error_code":"0000","execution_time":"0.437","goodsId":"74190550836","item":{"AmountOnSale":3188,"CategoryId":8484,"Coupon":null,"Delivery":{"From":null,"Info":null,"MarkInfo":null,"Postage":"快递 免运费","To":null,"extras":null},"DescUrl":null,"Detail":"<img src=\"https://img.pddpic.com/mms-material-img/2022-09-18/3f89d470-1af8-4dee-b529-6d62aa2ea3b7.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-02-15/ddf6fe7b-b536-4183-932d-69a1189a3f59.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/20f659b04d3e7e5851c27ff9931c96fc.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-11-14/4420a8c3-49ed-46d8-ab55-15e7a638ca31.jpg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/26c3e9d5cfbaf4e8f13b2bdd38f48d71.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/0aa872fa74599dad7b6aefe6b6c035c0.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6bc959e32a30424c7a5284a37676999c.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/1fa9861a8c99c5e9e8119fd2239fef5a.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/b62cabf1d2320c5761e3f4c15203fb20.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6f6e54376a66cbc78e16700d4c424fe1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/2f60753dfc875a6876adc35833a69d31.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/ae0116e589d8de712f8dafd0c356cefe.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/da910c98fcc8de1b4d2d1498cd7899fd.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/140349649d8b7d08c8e88bfbbaa2f900.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/a953bae2eeb7364ef3ef2976a97d07eb.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4da59828136c3b1308aad0aa990778a7.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4a365b61a80e47288c8609ccd5982396.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/cd0a8a96b783a51236812ce24c59a329.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/16008ac19768d05e7dee16406ff958a1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/ef1d17b69ebf9449a8bb52459b168c26.jpeg\" style=\"width:100%;\"/>","FansCount":null,"ImageUrls":["https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/d209ef7bcc9183c3bb8ca1dfdb108d49.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/74257ab65f3f00da7a90fde9042fe640.jpeg","https://t00img.yangkeduo.com/goods/images/2019-08-17/e8fbd9cb-cc74-4caa-9380-84c46d27b008.jpg","https://t00img.yangkeduo.com/goods/images/2019-08-17/d76f515b-e375-4060-b94e-cf64f6b0964e.jpg","https://t00img.yangkeduo.com/goods/images/2019-08-17/f2f279b5-6000-4fbe-b99b-7c1cbd7884ea.jpg"],"MainImageVideo":null,"OfferId":1620002566,"OriginalPriceRangeInfos":[{"ConvertPrice":0,"Price":115,"Range":"3"}],"PriceRangeInfos":[{"ConvertPrice":0,"Price":95.4,"Range":"3"}],"ProductFeatureTuples":[{"Item1":"面料材质","Item2":"仿皮草"},{"Item1":"成分含量","Item2":"71%（含）—80%（含）"},{"Item1":"版型","Item2":"修身"},{"Item1":"领型","Item2":"圆领"},{"Item1":"衣长","Item2":"短款"},{"Item1":"是否带毛领","Item2":"不带毛领"},{"Item1":"主风格","Item2":"气质名媛"}],"ProductFeatures":{"主风格":"气质名媛","成分含量":"71%（含）—80%（含）","是否带毛领":"不带毛领","版型":"修身","衣长":"短款","面料材质":"仿皮草","领型":"圆领"},"RateCount":null,"RetryCount":0,"SellCount":"已拼4.2万件","SellerId":null,"SellerNick":null,"ShopId":"461742","ShopInfo":null,"ShopName":"果果家气质女装","ShopUrl":"http://yangkeduo.com/mall_page.html?mall_id=461742","SkuMaps":[{"AmountOnSale":73,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"57114357891","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":65,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"57114357892","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":82,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"57114357893","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":89,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"57114357894","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":94,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"57114357895","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":105,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"57114357896","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":1051,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"57114357897","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":88,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"57114357898","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":80,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"57114357899","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":660,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"57114357900","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":126,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"57114357901","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":89,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"57114357902","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":98,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg","Key":"1215:105309781;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"103851107855","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":95,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/3660b7893ca5cda1ffcea745d10b2506.jpeg","Key":"1215:105309781;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"103851107856","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":97,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/a4a5a671afbb2d8e1f4c21c0ced3bea8.jpeg","Key":"1215:105309781;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"103851107857","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":97,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/f0551176629bf81f25757c160198dba1.jpeg","Key":"1215:105309781;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"103851107858","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":99,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/801a2e23140bfe76229f02aab0a8a5fe.jpeg","Key":"1215:105309781;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"103851107853","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":100,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/2f202934f16f0eee41257b77bf489262.jpeg","Key":"1215:105309781;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"103851107854","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"蓝色两件套（外套+裙子）"}}],"SkuProps":[{"IsImg":true,"Prop":"颜色","Value":[{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","name":"粉色两件套(外套+裙子)","value":"1215:1115500378"},{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","name":"米色两件套（外套+裙子）","value":"1215:1115501666"},{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg","name":"蓝色两件套（外套+裙子）","value":"1215:105309781"}]},{"IsImg":false,"Prop":"尺码","Value":[{"name":"S（90斤以下）","value":"1226:119128"},{"name":"M（90-100斤）","value":"1226:96784"},{"name":"L（100-110斤）","value":"1226:33651"},{"name":"XL（110-120斤）","value":"1226:33652"},{"name":"2XL（120-130斤）","value":"1226:33653"},{"name":"3XL（130-140斤）","value":"1226:33656"}]}],"SourceType":6,"Subject":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","Tag":null,"Unit":null,"UserId":"461742","_ddf":"app","format_check":"ok"},"reason":"","request_id":"gw-4.63510267214bd","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 23:30:38","secache_time":1666253415,"server_memory":"0.84MB","server_time":"Beijing/2023-10-20 16:10:15","translate_engine":"baidu","translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:30:38,548 -conftest.py:27 - [conftest:fixture_test] -------------接口测试结束---------------
+INFO - 2024-12-14 23:31:46,979 -conftest.py:25 - [conftest:fixture_test] -------------接口测试开始--------------
+INFO - 2024-12-14 23:31:46,983 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-14 23:31:46,983 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-14 23:31:46,985 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-14 23:31:46,985 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-14 23:31:46,985 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:31:46,985 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:31:46,985 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1734190306.9838982'}}
+INFO - 2024-12-14 23:31:46,991 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-14 23:31:46,991 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"BaC8fBa340fcEFf91b6DC1E02dbf5","userId":"8872843014663854240"}
+
+INFO - 2024-12-14 23:31:46,993 -apiutil.py:126 - [apiutil:extract_data] -json提取到的参数:{'token': 'BaC8fBa340fcEFf91b6DC1E02dbf5'}
+INFO - 2024-12-14 23:31:46,999 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品列表
+INFO - 2024-12-14 23:31:46,999 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/goodsList
+INFO - 2024-12-14 23:31:46,999 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Get
+INFO - 2024-12-14 23:31:47,000 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品列表
+INFO - 2024-12-14 23:31:47,000 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:31:47,000 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:31:47,000 -sendrequests.py:61 - [sendrequests:run_main] -请求参数:{'params': {'msgType': 'getHandsetListOfCust', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:31:47,004 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","cache":0,"error_code":"0000","goodsList":[{"goodsId":"18382788819","goods_count":"233","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","goods_name":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","original_price":"","unit_price":"￥99.00"},{"goodsId":"33809635011","goods_count":"521","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","goods_name":"好奇小森林心钻装纸尿裤M22拉拉裤L18/XL14超薄透气裤型尿不湿 1件装","original_price":"","unit_price":"￥108.00"},{"goodsId":"56996760797","goods_count":"1181","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"冻干鸡小胸整块增肥营养发腮狗狗零食新手养猫零食幼猫零食100g","original_price":"","unit_price":"￥17.80"},{"goodsId":"82193785267","goods_count":"3000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【自营】ISB伊珊娜意大利水果系列宠物犬猫沐浴露除臭香波护毛素","original_price":"","unit_price":"￥650.00"},{"goodsId":"74190550836","goods_count":"1000+","goods_image":"https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","goods_name":"【新品零0CM嵌入式】海尔电冰箱410L家用法式四门多门官方正品","original_price":"","unit_price":"￥5746.00"}],"reason":"","request_id":"request_id","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 20:56:16","secache_time":1734180976000,"translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:31:47,005 -apiutil.py:153 - [apiutil:extract_data_list] -json提取到参数:{'goodsId': ['18382788819', '33809635011', '56996760797', '82193785267', '74190550836']}
+INFO - 2024-12-14 23:31:47,020 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:商品详情
+INFO - 2024-12-14 23:31:47,020 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/coupApply/cms/productDetail
+INFO - 2024-12-14 23:31:47,020 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:Post
+INFO - 2024-12-14 23:31:47,020 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:获取商品详情
+INFO - 2024-12-14 23:31:47,020 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/json;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-14 23:31:47,021 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:None
+INFO - 2024-12-14 23:31:47,021 -sendrequests.py:58 - [sendrequests:run_main] -请求参数:{'json': {'pro_id': '18382788819', 'page': 1, 'size': 20}}
+INFO - 2024-12-14 23:31:47,025 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"api_info":"today:21 max:10000 all[90=21+33+36];expires:2030-12-31","api_type":"pinduoduo","cache":0,"call_args":{"num_iid":"1620002566"},"client_ip":"106.6.39.223","error":"","error_code":"0000","execution_time":"0.437","goodsId":"82193785267","item":{"AmountOnSale":3188,"CategoryId":8484,"Coupon":null,"Delivery":{"From":null,"Info":null,"MarkInfo":null,"Postage":"快递 免运费","To":null,"extras":null},"DescUrl":null,"Detail":"<img src=\"https://img.pddpic.com/mms-material-img/2022-09-18/3f89d470-1af8-4dee-b529-6d62aa2ea3b7.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-02-15/ddf6fe7b-b536-4183-932d-69a1189a3f59.png\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/20f659b04d3e7e5851c27ff9931c96fc.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2019-11-14/4420a8c3-49ed-46d8-ab55-15e7a638ca31.jpg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/26c3e9d5cfbaf4e8f13b2bdd38f48d71.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/0aa872fa74599dad7b6aefe6b6c035c0.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6bc959e32a30424c7a5284a37676999c.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/1fa9861a8c99c5e9e8119fd2239fef5a.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/b62cabf1d2320c5761e3f4c15203fb20.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/6f6e54376a66cbc78e16700d4c424fe1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/2f60753dfc875a6876adc35833a69d31.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/ae0116e589d8de712f8dafd0c356cefe.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/da910c98fcc8de1b4d2d1498cd7899fd.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/140349649d8b7d08c8e88bfbbaa2f900.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/a953bae2eeb7364ef3ef2976a97d07eb.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4da59828136c3b1308aad0aa990778a7.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-09-02/4a365b61a80e47288c8609ccd5982396.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/cd0a8a96b783a51236812ce24c59a329.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/16008ac19768d05e7dee16406ff958a1.jpeg\" style=\"width:100%;\"/><img src=\"https://t00img.yangkeduo.com/goods/images/2018-11-17/ef1d17b69ebf9449a8bb52459b168c26.jpeg\" style=\"width:100%;\"/>","FansCount":null,"ImageUrls":["https://omsproductionimg.yangkeduo.com/images/2017-12-12/bcf848aa71c6389607ae7a84b70f1543.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/176019babfdecffa1d9f98f40b7e99b4.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/efb5db42397550bffd3211ca6f197498.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/d209ef7bcc9183c3bb8ca1dfdb108d49.jpeg","https://omsproductionimg.yangkeduo.com/images/2017-12-12/74257ab65f3f00da7a90fde9042fe640.jpeg","https://t00img.yangkeduo.com/goods/images/2019-08-17/e8fbd9cb-cc74-4caa-9380-84c46d27b008.jpg","https://t00img.yangkeduo.com/goods/images/2019-08-17/d76f515b-e375-4060-b94e-cf64f6b0964e.jpg","https://t00img.yangkeduo.com/goods/images/2019-08-17/f2f279b5-6000-4fbe-b99b-7c1cbd7884ea.jpg"],"MainImageVideo":null,"OfferId":1620002566,"OriginalPriceRangeInfos":[{"ConvertPrice":0,"Price":115,"Range":"3"}],"PriceRangeInfos":[{"ConvertPrice":0,"Price":95.4,"Range":"3"}],"ProductFeatureTuples":[{"Item1":"面料材质","Item2":"仿皮草"},{"Item1":"成分含量","Item2":"71%（含）—80%（含）"},{"Item1":"版型","Item2":"修身"},{"Item1":"领型","Item2":"圆领"},{"Item1":"衣长","Item2":"短款"},{"Item1":"是否带毛领","Item2":"不带毛领"},{"Item1":"主风格","Item2":"气质名媛"}],"ProductFeatures":{"主风格":"气质名媛","成分含量":"71%（含）—80%（含）","是否带毛领":"不带毛领","版型":"修身","衣长":"短款","面料材质":"仿皮草","领型":"圆领"},"RateCount":null,"RetryCount":0,"SellCount":"已拼4.2万件","SellerId":null,"SellerNick":null,"ShopId":"461742","ShopInfo":null,"ShopName":"果果家气质女装","ShopUrl":"http://yangkeduo.com/mall_page.html?mall_id=461742","SkuMaps":[{"AmountOnSale":73,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"57114357891","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":65,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"57114357892","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":82,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"57114357893","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":89,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"57114357894","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":94,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"57114357895","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":105,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","Key":"1215:1115500378;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"57114357896","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"粉色两件套(外套+裙子)"}},{"AmountOnSale":1051,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"57114357897","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":88,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"57114357898","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":80,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"57114357899","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":660,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"57114357900","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":126,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"57114357901","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":89,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","Key":"1215:1115501666;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"57114357902","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"米色两件套（外套+裙子）"}},{"AmountOnSale":98,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg","Key":"1215:105309781;1226:119128","OriginalPrice":115,"Price":95.4,"SkuId":"103851107855","SpecAttributes":{"尺码":"S（90斤以下）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":95,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/3660b7893ca5cda1ffcea745d10b2506.jpeg","Key":"1215:105309781;1226:96784","OriginalPrice":115,"Price":95.4,"SkuId":"103851107856","SpecAttributes":{"尺码":"M（90-100斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":97,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/a4a5a671afbb2d8e1f4c21c0ced3bea8.jpeg","Key":"1215:105309781;1226:33651","OriginalPrice":115,"Price":95.4,"SkuId":"103851107857","SpecAttributes":{"尺码":"L（100-110斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":97,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/f0551176629bf81f25757c160198dba1.jpeg","Key":"1215:105309781;1226:33652","OriginalPrice":115,"Price":95.4,"SkuId":"103851107858","SpecAttributes":{"尺码":"XL（110-120斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":99,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/801a2e23140bfe76229f02aab0a8a5fe.jpeg","Key":"1215:105309781;1226:33653","OriginalPrice":115,"Price":95.4,"SkuId":"103851107853","SpecAttributes":{"尺码":"2XL（120-130斤）","颜色":"蓝色两件套（外套+裙子）"}},{"AmountOnSale":100,"ImageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/2f202934f16f0eee41257b77bf489262.jpeg","Key":"1215:105309781;1226:33656","OriginalPrice":115,"Price":95.4,"SkuId":"103851107854","SpecAttributes":{"尺码":"3XL（130-140斤）","颜色":"蓝色两件套（外套+裙子）"}}],"SkuProps":[{"IsImg":true,"Prop":"颜色","Value":[{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/062d42b525a7c786920cbb83ac772af7.jpeg","name":"粉色两件套(外套+裙子)","value":"1215:1115500378"},{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-08-28/415bed99d5a925123d7b7c39547205de.jpeg","name":"米色两件套（外套+裙子）","value":"1215:1115501666"},{"imageUrl":"http://t00img.yangkeduo.com/goods/images/2018-11-17/48b30664f0f7e526ab1b956e813f25cf.jpeg","name":"蓝色两件套（外套+裙子）","value":"1215:105309781"}]},{"IsImg":false,"Prop":"尺码","Value":[{"name":"S（90斤以下）","value":"1226:119128"},{"name":"M（90-100斤）","value":"1226:96784"},{"name":"L（100-110斤）","value":"1226:33651"},{"name":"XL（110-120斤）","value":"1226:33652"},{"name":"2XL（120-130斤）","value":"1226:33653"},{"name":"3XL（130-140斤）","value":"1226:33656"}]}],"SourceType":6,"Subject":"【2件套】套装秋冬新款仿獭兔毛钉珠皮草毛毛短外套加厚大衣女装","Tag":null,"Unit":null,"UserId":"461742","_ddf":"app","format_check":"ok"},"reason":"","request_id":"gw-4.63510267214bd","secache":"c98b29872e8a4b28859db207944ba817","secache_date":"2024-12-14 23:31:47","secache_time":1666253415,"server_memory":"0.84MB","server_time":"Beijing/2023-10-20 16:10:15","translate_engine":"baidu","translate_language":"zh-CN"}
+
+INFO - 2024-12-14 23:31:47,030 -conftest.py:27 - [conftest:fixture_test] -------------接口测试结束---------------
