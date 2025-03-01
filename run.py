@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # pytest.main(['-sv', '--alluredir=./allure_report/'])
     # os.system('allure serve ./allure_report')
 
-    # os.system('allure generate ./allure_report/ -o ./report/ --clean')
+    os.system('allure generate ./allure_report/ -o ./report/ --clean')
 
 
     # pytest -sv ./pytestdemo -m "maoyan"
