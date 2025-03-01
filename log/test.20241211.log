@@ -1,0 +1,316 @@
+INFO - 2024-12-11 00:38:05,292 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:38:05,293 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:38:05,293 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:38:05,295 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:38:05,295 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:38:05,296 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:38:05,296 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733848685.2927172'}}
+ERROR - 2024-12-11 00:38:07,334 -sendrequests.py:23 - [sendrequests:send_request] -接口连接服务器异常
+INFO - 2024-12-11 00:39:36,545 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:39:36,547 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:39:36,547 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:39:36,548 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:39:36,548 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:39:36,549 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:39:36,549 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733848776.5459673'}}
+INFO - 2024-12-11 00:39:36,563 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:39:36,564 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:<Response [200]>
+INFO - 2024-12-11 00:39:49,064 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:39:49,064 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:39:49,064 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:39:49,064 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:39:49,066 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:39:49,066 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:39:49,066 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733848789.0647266'}}
+INFO - 2024-12-11 00:39:49,076 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:39:49,077 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:<Response [200]>
+INFO - 2024-12-11 00:42:46,898 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:42:46,899 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:42:46,899 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:42:46,899 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:42:46,900 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:42:46,900 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:42:46,900 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733848966.8982115'}}
+INFO - 2024-12-11 00:42:46,911 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:42:46,912 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:<Response [200]>
+INFO - 2024-12-11 00:43:54,621 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:43:54,622 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:43:54,622 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:43:54,622 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:43:54,623 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:43:54,623 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:43:54,623 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733849034.6215482'}}
+INFO - 2024-12-11 00:43:54,634 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:43:54,634 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:<Response [200]>
+INFO - 2024-12-11 00:44:20,402 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:44:20,402 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:44:20,402 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:44:20,403 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:44:20,403 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:44:20,403 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:44:20,404 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733849060.4012847'}}
+INFO - 2024-12-11 00:44:20,413 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:44:20,415 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:<Response [200]>
+INFO - 2024-12-11 00:45:18,871 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:45:18,872 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:45:18,872 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:45:18,873 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:45:18,873 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:45:18,874 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:45:18,874 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733849118.8710768'}}
+INFO - 2024-12-11 00:45:18,886 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:45:18,886 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:<Response [200]>
+INFO - 2024-12-11 00:47:46,127 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:47:46,128 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:47:46,128 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:47:46,129 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:47:46,129 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:47:46,129 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:47:46,129 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733849266.1273742'}}
+INFO - 2024-12-11 00:47:46,139 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:47:46,140 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"023Fcbefa754384158c5F5Cdbf6cb","userId":"7094042483228774356"}
+
+INFO - 2024-12-11 00:49:51,378 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:49:51,379 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:49:51,379 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:49:51,379 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:49:51,379 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:49:51,381 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:49:51,381 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123'}}
+INFO - 2024-12-11 00:49:51,391 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:49:51,391 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"fF26BBbb2f18Cf018635fbDdea6f7","userId":"7094042483228774356"}
+
+INFO - 2024-12-11 00:50:21,261 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 00:50:21,262 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 00:50:21,262 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 00:50:21,262 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 00:50:21,263 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 00:50:21,263 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 00:50:21,263 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733849421.2610726'}}
+INFO - 2024-12-11 00:50:21,274 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 00:50:21,274 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"7df8dD7DB9d6FcDCa033Be5B6EB3E","userId":"7094042483228774356"}
+
+INFO - 2024-12-11 23:07:12,949 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:07:12,949 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:07:12,950 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:07:12,950 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:07:12,950 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:07:12,950 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:07:12,951 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733929632.9491818'}}
+ERROR - 2024-12-11 23:07:14,978 -sendrequests.py:23 - [sendrequests:send_request] -接口连接服务器异常
+INFO - 2024-12-11 23:07:56,890 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:07:56,891 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:07:56,891 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:07:56,892 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:07:56,892 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:07:56,892 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:07:56,894 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733929676.8909118'}}
+INFO - 2024-12-11 23:07:56,908 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:07:56,909 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"0fdA0c5e3fC8C534cF28A88b2592C","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:08:01,978 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:08:01,978 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:08:01,979 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:08:01,979 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:08:01,979 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:08:01,979 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:08:01,980 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733929681.9787135'}}
+INFO - 2024-12-11 23:08:01,989 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:08:01,990 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"52FAbD6Ad3A8F6D4efAd46BFBbaF9","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:08:25,522 -test_login.py:36 - [test_login:test_case01] -获取到接口地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:08:25,523 -test_login.py:38 - [test_login:test_case01] -获取到接口方法:post
+INFO - 2024-12-11 23:08:25,523 -test_login.py:41 - [test_login:test_case01] -获取到接口请求参数:{'user_name': 'test01', 'passwd': 'admin123', 't': '${get_stamp_time()}'}
+INFO - 2024-12-11 23:08:25,706 -test_login.py:53 - [test_login:test_case02] -获取到接口地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:08:25,707 -test_login.py:55 - [test_login:test_case02] -获取到接口方法:post
+INFO - 2024-12-11 23:15:37,531 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:15:37,532 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:15:37,532 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:15:37,533 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:15:37,533 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:15:37,534 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:15:37,534 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930137.5311759'}}
+INFO - 2024-12-11 23:15:37,545 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:15:37,546 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"A1ee80296b933Ed11E875FBc0279E","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:15:37,558 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:15:37,558 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:15:37,559 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:15:37,559 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:15:37,559 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:15:37,559 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:15:37,560 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930137.5580146'}}
+INFO - 2024-12-11 23:15:37,566 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:15:37,566 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"4140913758110176843","token":"8aDfdCC24EeDa7Ba384412B66eAb5","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:19:38,131 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:19:38,132 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:19:38,133 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:19:38,133 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:19:38,133 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:19:38,134 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:19:38,134 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930378.1314464'}}
+INFO - 2024-12-11 23:19:38,147 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:19:38,147 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"C9f6aDb2cb926f9dB656Ba3E2E622","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:19:38,150 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:19:38,150 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:19:38,151 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:19:38,151 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:19:38,153 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:19:38,153 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:19:38,153 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733930378.1503322'}}
+INFO - 2024-12-11 23:19:38,159 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-11 23:19:38,172 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:19:38,172 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:19:38,172 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:19:38,173 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:19:38,173 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:19:38,173 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:19:38,175 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930378.1724849'}}
+INFO - 2024-12-11 23:19:38,181 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:19:38,182 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"e02b1Fd7dBADD9c05A00D54FBeccF","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:19:38,185 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:19:38,186 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:19:38,186 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:19:38,186 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:19:38,187 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:19:38,187 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:19:38,187 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733930378.1852236'}}
+INFO - 2024-12-11 23:19:38,193 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-11 23:22:31,895 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:22:31,895 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:22:31,896 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:22:31,896 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:22:31,896 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:22:31,896 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:22:31,898 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930551.8957067'}}
+INFO - 2024-12-11 23:22:31,908 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:22:31,908 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"639AdfF96db665FaB4F80862C453a","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:22:31,911 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:22:31,911 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:22:31,911 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:22:31,912 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:22:31,912 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:22:31,912 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:22:31,913 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733930551.9113572'}}
+INFO - 2024-12-11 23:22:31,918 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-11 23:23:50,153 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:23:50,154 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:23:50,154 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:23:50,155 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:23:50,155 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:23:50,156 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:23:50,156 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930630.1533856'}}
+INFO - 2024-12-11 23:23:50,165 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:23:50,165 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"988bADf1ED5726E1Ce98aF4E3e9cC","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:23:50,168 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:23:50,168 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:23:50,169 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:23:50,169 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:23:50,169 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:23:50,170 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:23:50,170 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733930630.168389'}}
+INFO - 2024-12-11 23:23:50,175 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-11 23:25:31,172 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:25:31,173 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:25:31,173 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:25:31,174 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:25:31,174 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:25:31,174 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:25:31,175 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930731.172155'}}
+INFO - 2024-12-11 23:25:31,183 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:25:31,184 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"2A89FBa4dE09227f828496d48Be93","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:25:31,186 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:25:31,186 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:25:31,187 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:25:31,187 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:25:31,187 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:25:31,188 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:25:31,188 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733930731.186176'}}
+INFO - 2024-12-11 23:25:31,193 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-11 23:26:37,209 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:26:37,210 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:26:37,210 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:26:37,211 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:26:37,211 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:26:37,211 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:26:37,212 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930797.2097542'}}
+INFO - 2024-12-11 23:26:37,220 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:26:37,221 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"63eE43FcfF492d52e938cd10ddA2a","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:26:37,223 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:26:37,223 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:26:37,223 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:26:37,223 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:26:37,225 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:26:37,226 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:26:37,226 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733930797.2237298'}}
+INFO - 2024-12-11 23:26:37,231 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-11 23:26:37,242 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:26:37,242 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:26:37,243 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:26:37,243 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:26:37,243 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:26:37,244 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:26:37,244 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733930797.2421877'}}
+INFO - 2024-12-11 23:26:37,249 -sendrequests.py:20 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:26:37,249 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"fF7Eaf1bb4001c811Ea4ca91A1E7C","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:26:37,251 -sendrequests.py:46 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:26:37,253 -sendrequests.py:47 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:26:37,253 -sendrequests.py:48 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:26:37,254 -sendrequests.py:49 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:26:37,254 -sendrequests.py:50 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:26:37,255 -sendrequests.py:51 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:26:37,255 -sendrequests.py:54 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733930797.2518394'}}
+INFO - 2024-12-11 23:26:37,260 -sendrequests.py:21 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-11 23:32:30,274 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:32:30,274 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:32:30,274 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:32:30,275 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:32:30,275 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:32:30,276 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:32:30,276 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733931150.2729633'}}
+INFO - 2024-12-11 23:32:30,286 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:32:30,286 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"fb6BA65ab83A7fe2DdfeFcc41f1D1","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:32:30,289 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:32:30,289 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:32:30,289 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:32:30,289 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:32:30,290 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:32:30,290 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:32:30,290 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733931150.2893589'}}
+INFO - 2024-12-11 23:32:30,296 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+
+INFO - 2024-12-11 23:32:30,306 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:32:30,307 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:32:30,307 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:32:30,308 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确登录验证
+INFO - 2024-12-11 23:32:30,308 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:32:30,308 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:32:30,309 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test01', 'passwd': 'admin123', 't': '1733931150.3061113'}}
+INFO - 2024-12-11 23:32:30,316 -sendrequests.py:21 - [sendrequests:send_request] -cookie:{}
+INFO - 2024-12-11 23:32:30,316 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"error_code":null,"msg":"登录成功","msg_code":200,"orgId":"6140913758128971280","token":"8cDacbe9Ceea1afd2B65ecAe0fBCD","userId":"3229348671263942917"}
+
+INFO - 2024-12-11 23:32:30,319 -sendrequests.py:47 - [sendrequests:run_main] -接口名称:用户登录
+INFO - 2024-12-11 23:32:30,320 -sendrequests.py:48 - [sendrequests:run_main] -接口请求地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-11 23:32:30,320 -sendrequests.py:49 - [sendrequests:run_main] -接口请求方式:post
+INFO - 2024-12-11 23:32:30,320 -sendrequests.py:50 - [sendrequests:run_main] -测试用例名称:用户名和密码正确错误校验
+INFO - 2024-12-11 23:32:30,321 -sendrequests.py:51 - [sendrequests:run_main] -请求头:{'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8', 'token': '${get_extract_data(cookie,session)}'}
+INFO - 2024-12-11 23:32:30,321 -sendrequests.py:52 - [sendrequests:run_main] -Cookies:{}
+INFO - 2024-12-11 23:32:30,321 -sendrequests.py:55 - [sendrequests:run_main] -请求参数:{'data': {'user_name': 'test02', 'passwd': 'admin123', 't': '1733931150.3190746'}}
+INFO - 2024-12-11 23:32:30,326 -sendrequests.py:22 - [sendrequests:send_request] -接口的实际返回信息:{"msg":"登录失败,用户名或密码错误","msg_code":9001,"token":null,"userId":null}
+

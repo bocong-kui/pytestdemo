@@ -1,0 +1,12 @@
+INFO - 2024-12-08 18:02:59,369 -test_login.py:36 - [test_login:test_case01] -获取到接口地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-08 18:02:59,370 -test_login.py:38 - [test_login:test_case01] -获取到接口方法:post
+INFO - 2024-12-08 18:02:59,370 -test_login.py:41 - [test_login:test_case01] -获取到接口请求参数:{'user_name': 'test01', 'passwd': 'admin123', 't': '${get_stamp_time()}'}
+INFO - 2024-12-08 18:02:59,379 -test_login.py:44 - [test_login:test_case01] -接口实际返回值:{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'f1cBE7c6ccdAf26a699Db9a45117d', 'userId': '4090684908470109214'} 
+INFO - 2024-12-08 18:02:59,385 -test_login.py:53 - [test_login:test_case02] -获取到接口地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-08 18:02:59,385 -test_login.py:55 - [test_login:test_case02] -获取到接口方法:post
+INFO - 2024-12-08 18:07:08,238 -test_login.py:36 - [test_login:test_case01] -获取到接口地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-08 18:07:08,238 -test_login.py:38 - [test_login:test_case01] -获取到接口方法:post
+INFO - 2024-12-08 18:07:08,239 -test_login.py:41 - [test_login:test_case01] -获取到接口请求参数:{'user_name': 'test01', 'passwd': 'admin123', 't': '${get_stamp_time()}'}
+INFO - 2024-12-08 18:07:08,246 -test_login.py:44 - [test_login:test_case01] -接口实际返回值:{'error_code': None, 'msg': '登录成功', 'msg_code': 200, 'orgId': '6140913758128971280', 'token': 'e8E77Ea7De7B2fCF16C0bE1d277d0', 'userId': '4090684908470109214'} 
+INFO - 2024-12-08 18:07:08,252 -test_login.py:53 - [test_login:test_case02] -获取到接口地址:http://127.0.0.1:8787/dar/user/login
+INFO - 2024-12-08 18:07:08,252 -test_login.py:55 - [test_login:test_case02] -获取到接口方法:post
