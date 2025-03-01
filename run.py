@@ -10,6 +10,7 @@ if __name__ == '__main__':
     # os.system('allure serve ./allure_report')
 
     os.system('allure generate ./allure_report/ -o ./report/ --clean')
+    print('hahaha')
 
 
     # pytest -sv ./pytestdemo -m "maoyan"
